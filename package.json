@@ -1,0 +1,25 @@
+{
+    "name": "st-dark-theme",
+    "displayName": "St Dark Theme",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "Stewarts",
+    "author": {
+        "name": "Gabriel Silva"
+    },
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark St",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark St-color-theme.json"
+            }
+        ]
+    }
+}
