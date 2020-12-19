@@ -2,18 +2,41 @@
 	"name": "St-Dark",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#121213",
+		"editor.background": "#0D1117", //dark
 		"editor.findMatchBackground": "#c0fcf641",
 		"editor.foreground": "#ddd",
-		"activityBarBadge.background": "#eee",
-		"sideBarTitle.foreground": "#eee",
+		"editor.lineHighlightBackground": "#161B22", // selected line
+		"editor.selectionBackground": "#c0fcd446",
+
 		"editorWhitespace.foreground": "#c0fcf66e",
 		"editorCursor.foreground": "#c0fcf6",
-		"editor.lineHighlightBackground": "#373737", // selected line
-		"editor.selectionBackground": "#c0fcd446",
-		"editorGroupHeader.tabsBackground": "#121214",
+		"editorGroupHeader.tabsBackground": "#161B22",
 		"editorGroupHeader.tabsBorder": "#c0fcf66e",
-		"activityBar.activeBackground": "#ff0000"
+
+		"tab.inactiveBackground": "#161B22",
+		"tab.inactiveForeground": "#aaa",
+		"tab.inactiveModifiedBorder": "#ff0000",
+
+		"sideBar.background": "#161B22",
+		"sideBar.border": "#c0fcf641",
+		"sideBar.foreground": "#fafafa",
+		"sideBarTitle.foreground": "#eee",
+		"sideBar.dropBackground": "#f90",
+
+		"sideBarSectionHeader.background": "#161B22",
+
+		"activityBar.background": "#0D1117",
+		"activityBar.border": "#c0fcf641",
+		"activityBar.dropBorder": "#f90", //
+		"activityBar.foreground": "#fafafa",
+		"activityBar.inactiveForeground": "#aaa",
+
+		"activityBarBadge.background": "#161B22",
+		"activityBarBadge.foreground": "#eeeeee",
+
+		"activityBar.activeBackground": "#161B22",
+		"activityBar.activeBorder": "#c0fcf641",
+		"activityBar.activeFocusBorder": "#f90",
 	},
 	"tokenColors": [
 		{
@@ -110,30 +133,10 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-
 				"keyword.control",
 			],
 			"settings": {
 				"foreground": "#03ffdd"
-			}
-		},
-		{
-			"name": "Operator, Misc",
-			"scope": [
-				
-				"punctuation",
-				// "meta.tag",
-				//"punctuation.definition.tag",
-				//"punctuation.separator.inheritance.php",
-				//"punctuation.definition.tag.html",
-				//"punctuation.definition.tag.begin.html",
-				//"punctuation.definition.tag.end.html",
-				//"punctuation.section.embedded",
-				//"keyword.other.template",
-				//"keyword.other.substitution"
-			],
-			"settings": {
-				"foreground": "#d503ff"
 			}
 		},
 		{
