@@ -2,5 +2,5 @@
 
 ## Screenshots:
 
-![Screenshot](Assets/screenshot.png)
+![Screenshot](https://github.com/StwGabriel/St-Dark-Theme/blob/main/Assets/screenshot.png)
 
