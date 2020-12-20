@@ -2,5 +2,5 @@
 
 ## Screenshot:
 
-![Screenshot](https://i.ibb.co/HxdjhwB/screenshot.png)
+<img alt="Screenshor" src="https://i.ibb.co/HxdjhwB/screenshot.png">
 
