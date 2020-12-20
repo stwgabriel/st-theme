@@ -2,32 +2,40 @@
 	"name": "St-Dark",
 	"type": "dark",
 	"colors": {
+
 		"editor.background": "#0D1117", //dark
 		"editor.findMatchBackground": "#c0fcf641",
 		"editor.foreground": "#ddd",
 		"editor.lineHighlightBackground": "#161B22", // selected line
+		"editor.lineHighlightBorder": "#c0fcf63f", // selected line borders
 		"editor.selectionBackground": "#c0fcd446",
 
 		"editorWhitespace.foreground": "#c0fcf66e",
 		"editorCursor.foreground": "#c0fcf6",
 		"editorGroupHeader.tabsBackground": "#161B22",
-		"editorGroupHeader.tabsBorder": "#c0fcf66e",
+		"editorGroupHeader.tabsBorder": "#fff0",
 
 		"tab.inactiveBackground": "#161B22",
 		"tab.inactiveForeground": "#aaa",
+
 		"tab.inactiveModifiedBorder": "#ff0000",
+
+		"titleBar.activeBackground": "#0D1117",
 
 		"sideBar.background": "#161B22",
 		"sideBar.border": "#c0fcf641",
 		"sideBar.foreground": "#fafafa",
 		"sideBarTitle.foreground": "#eee",
-		"sideBar.dropBackground": "#f90",
+
+		"sideBar.dropBackground": "#f90", // dunno
 
 		"sideBarSectionHeader.background": "#161B22",
 
-		"activityBar.background": "#0D1117",
+		"activityBar.background": "#0D1117", //dark
 		"activityBar.border": "#c0fcf641",
-		"activityBar.dropBorder": "#f90", //
+
+		"activityBar.dropBorder": "#f90", // dunno
+
 		"activityBar.foreground": "#fafafa",
 		"activityBar.inactiveForeground": "#aaa",
 
@@ -36,6 +44,7 @@
 
 		"activityBar.activeBackground": "#161B22",
 		"activityBar.activeBorder": "#c0fcf641",
+		
 		"activityBar.activeFocusBorder": "#f90",
 	},
 	"tokenColors": [
