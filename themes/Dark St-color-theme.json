@@ -34,7 +34,7 @@
 		"activityBar.background": "#0D1117", //dark
 		"activityBar.border": "#c0fcf641",
 
-		"activityBar.dropBorder": "#f90", // dunno
+		"activityBar.dropBorder": "#f00", // dunno
 
 		"activityBar.foreground": "#fafafa",
 		"activityBar.inactiveForeground": "#aaa",
@@ -45,7 +45,7 @@
 		"activityBar.activeBackground": "#161B22",
 		"activityBar.activeBorder": "#c0fcf641",
 		
-		"activityBar.activeFocusBorder": "#f90",
+		"activityBar.activeFocusBorder": "#0D1117",
 	},
 	"tokenColors": [
 		{
