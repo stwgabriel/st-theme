@@ -1,50 +1,37 @@
 {
 	"name": "St-Dark",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
-
 		"editor.background": "#0D1117", //dark
 		"editor.findMatchBackground": "#c0fcf641",
-		"editor.foreground": "#ddd",
-		"editor.lineHighlightBackground": "#161B22", // selected line
+		"editor.foreground": "#f5eb64",
+		"editor.lineHighlightBackground": "#161B22", //selected line
 		"editor.lineHighlightBorder": "#c0fcf63f", // selected line borders
 		"editor.selectionBackground": "#c0fcd446",
-
 		"editorWhitespace.foreground": "#c0fcf66e",
 		"editorCursor.foreground": "#c0fcf6",
 		"editorGroupHeader.tabsBackground": "#161B22",
 		"editorGroupHeader.tabsBorder": "#fff0",
-
 		"tab.inactiveBackground": "#161B22",
 		"tab.inactiveForeground": "#aaa",
-
-		"tab.inactiveModifiedBorder": "#ff0000",
-
+		"tab.inactiveModifiedBorder": "#ff0000", //dk
 		"titleBar.activeBackground": "#0D1117",
-
 		"sideBar.background": "#161B22",
 		"sideBar.border": "#c0fcf641",
 		"sideBar.foreground": "#fafafa",
 		"sideBarTitle.foreground": "#eee",
-
-		"sideBar.dropBackground": "#f90", // dunno
-
+		"sideBar.dropBackground": "#f00", //dk
 		"sideBarSectionHeader.background": "#161B22",
-
 		"activityBar.background": "#0D1117", //dark
 		"activityBar.border": "#c0fcf641",
-
-		"activityBar.dropBorder": "#f00", // dunno
-
+		"activityBar.dropBorder": "#f00", //dk
 		"activityBar.foreground": "#fafafa",
 		"activityBar.inactiveForeground": "#aaa",
-
 		"activityBarBadge.background": "#161B22",
 		"activityBarBadge.foreground": "#eeeeee",
-
 		"activityBar.activeBackground": "#161B22",
 		"activityBar.activeBorder": "#c0fcf641",
-		
 		"activityBar.activeFocusBorder": "#0D1117",
 	},
 	"tokenColors": [
@@ -60,7 +47,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#f1fa8c"
+				"foreground": "#f5eb64"
 			}
 		},
 		{
@@ -145,7 +132,8 @@
 				"keyword.control",
 			],
 			"settings": {
-				"foreground": "#03ffdd"
+				"foreground": "#42fd71cd",
+				"fontStyle": "underline"
 			}
 		},
 		{
@@ -165,11 +153,23 @@
 			}
 		},
 		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"meta.require",
+				"support.function.any-method",
+				"variable.function"
+			],
+			"settings": {
+				"foreground": "#00fa32"
+			}
+		},
+		{
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#50fa7b"
+				"foreground": "#8bffe0"
 			}
 		},
 		{
@@ -177,7 +177,7 @@
 			"scope": "variable.parameter",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ffb86c"
+				"foreground": "#00ff55"
 			}
 		},
 		{
@@ -201,7 +201,7 @@
 			"scope": "support.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#8be9fd"
+				"foreground": "#f00"
 			}
 		},
 		{
@@ -369,7 +369,7 @@
 				"foreground": "#ffb86c"
 			}
 		},
-		// markedown
+		//markedown
 		{
 			"name": "markup.heading",
 			"scope": [
@@ -418,7 +418,7 @@
 				"foreground": "#82AAFF"
 			}
 		},
-		{ // Italic text on markedown
+		{ //Italic text on markedown
 			"name": "Markup - Italic",
 			"scope": [
 				"markup.italic"
@@ -428,7 +428,7 @@
 				"foreground": "#d3e0ff"
 			}
 		},
-		{ // Bold text on markedown
+		{ //Bold text on markedown
 			"name": "Markup - Bold",
 			"scope": [
 				"markup.bold",
@@ -439,7 +439,7 @@
 				"foreground": "#f8c2c5"
 			}
 		},
-		{ // Bold and Italic text on markedown
+		{ //Bold and Italic text on markedown
 			"name": "Markup - Bold-Italic",
 			"scope": [
 				"markup.bold markup.italic",
@@ -575,6 +575,16 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
-		}
+		},
+		{
+			"scope": [
+				"constant.numeric.float",
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
 	],
 }
