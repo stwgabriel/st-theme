@@ -2,49 +2,34 @@
 	"name": "St-Dark",
 	"type": "dark",
 	"colors": {
-
 		"editor.background": "#121213", //dark
 		"editor.findMatchBackground": "#c0fcf641",
 		"editor.foreground": "#ddd",
 		"editor.lineHighlightBackground": "#181818", // selected line
 		"editor.selectionBackground": "#c0fcd446",
-
-	
 		"editorWhitespace.foreground": "#c0fcf66e",
-		
 		"editorCursor.foreground": "#c0fcf6",
 		"editorGroupHeader.tabsBackground": "#181818",
 		"editorGroupHeader.tabsBorder": "#c0fcf66e",
-
 		"tab.inactiveBackground": "#181818",
 		"tab.inactiveForeground": "#aaa",
-		"tab.inactiveModifiedBorder": "#ff0000",
-
+		"tab.inactiveModifiedBorder": "#121213",
 		"sideBar.background": "#181818",
 		"sideBar.border": "#c0fcf641",
 		"sideBar.foreground": "#fafafa",
 		"sideBarTitle.foreground": "#eee",
-		"sideBar.dropBackground": "#f90",
+		"sideBar.dropBackground": "#1eff01",
 		"sideBarSectionHeader.background": "#181818",
-
 		"activityBar.background": "#121213",
 		"activityBar.border": "#c0fcf641",
-
-		"activityBar.dropBorder": "#f90", //
-
+		"activityBar.dropBorder": "#00d9ff", //
 		"activityBar.foreground": "#fafafa",
 		"activityBar.inactiveForeground": "#aaa",
-		
-		"activityBarBadge.background": "#181818",
-		"activityBarBadge.foreground": "#eeeeee",
-
-		"activityBar.activeBackground": "#181818", 
+		"activityBarBadge.background": "#131313",
+		"activityBarBadge.foreground": "#ffffff",
+		"activityBar.activeBackground": "#181818",
 		"activityBar.activeBorder": "#c0fcf641",
-
-		"activityBar.activeFocusBorder": "#f90",
-		
-		
-		
+		"activityBar.activeFocusBorder": "#121212",
 	},
 	"tokenColors": [
 		{

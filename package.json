@@ -3,13 +3,13 @@
     "name": "st-dark-theme",
     "displayName": "St Dark Theme",
     "description": "St-Dark is a theme based on Dark-Dracula and was made to add more styles and make your code stand out",
+    "icon": "Assets/icon.jpeg",
     "version": "0.0.1",
-    "icon": "",
-    "homepage": "https://github.com/StwGabriel/St-Dark-Theme/blob/main/README.md",
+    "homepage": "https://github.com/StwGabriel/README.md",
     "repository": {
 
         "type": "git",
-        "url": "https://github.com/StwGabriel/St-Dark-Theme.git"
+        "url": "https://github.com/StwGabriel.git"
     },
     "publisher": "Stewarts",
 
