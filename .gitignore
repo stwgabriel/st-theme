@@ -1,5 +1,5 @@
 node_modules
-*.vsix
+st-dark-theme-0.0.4.vsix
 app.js
 theme.json
 s.txt
