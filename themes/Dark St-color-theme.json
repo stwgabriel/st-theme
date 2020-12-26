@@ -79,7 +79,7 @@
 			"scope": "variable",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#e1fdfb"
+				"foreground": "#a7fdf8"
 			}
 		},
 		{
@@ -130,7 +130,7 @@
 			"scope": "storage.type",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#00ff6a"
+				"foreground": "#00ff9d"
 			}
 		},
 		{
