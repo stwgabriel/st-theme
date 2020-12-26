@@ -95,6 +95,7 @@
 				"string source",
 				"string source.ruby"
 			],
+			
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#ff79c6"
