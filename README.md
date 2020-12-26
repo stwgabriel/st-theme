@@ -12,5 +12,5 @@ This theme is in production, changes are constant.
 
 Este tema esta em fase de produçao, mudaças são constantes.
 
-### available in the vs code marketplace
+### Available in the vs code marketplace
 https://marketplace.visualstudio.com/items?itemName=StwGabriel.st-dark-theme
