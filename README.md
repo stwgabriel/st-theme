@@ -4,13 +4,9 @@
 
 <p aling="center" ><img src="https://i.ibb.co/HxdjhwB/screenshot.png"></p>
 
->En
+> Notice
 
-This theme is in production, changes are constant.
-
->PTG
-
-Este tema esta em fase de produçao, mudaças são constantes.
+project temporarily interrupted.
 
 ### Available in the vs code marketplace
 https://marketplace.visualstudio.com/items?itemName=StwGabriel.st-dark-theme
